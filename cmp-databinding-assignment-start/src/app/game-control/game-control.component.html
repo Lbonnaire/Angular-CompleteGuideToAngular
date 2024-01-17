@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="col-md-10">
+        <button class="btn btn-primary" (click)="onStartGame()" #startBut>Start game</button>
+        <button class="btn btn-danger" (click)="onStopGame()">Stop game</button>
+        
+
+    </div>
+    <hr>
+    <p *ngFor="let value of values">
+        <app-odd *ngIf="value.increment%2==1"
+        [oddNumb]="value.increment">
+        </app-odd>
+      
+        <app-even *ngIf="value.increment%2==0"
+        [evenNumb]="value.increment">
+        </app-even>
+      </p>
+</div>
