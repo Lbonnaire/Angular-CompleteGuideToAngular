@@ -1,3 +1,4 @@
 *.zip
 *package-lock.json
 *package.json
+*.tsbuildinfo
