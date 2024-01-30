@@ -3,9 +3,8 @@ Files used for following the course Angular - The Complete Guide on Udemy (https
 The course covers:
 - Components
 - Directives
-- Services 
+- Services and  Dependency Injections
 - Forms
-- Dependency Injections
 - Data binding
 - Pipes
 - HTTP Access
